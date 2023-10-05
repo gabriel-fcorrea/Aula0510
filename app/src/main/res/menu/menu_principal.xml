@@ -6,7 +6,24 @@
         android:id="@+id/mFavorite"
         android:icon="@drawable/baseline_favorite"
         android:title="Favorites"
-        app:showAsAction="" />
+        app:showAsAction="ifRoom" />
 
+    <item
+        android:id="@+id/mMusic"
+        android:icon="@drawable/baseline_music_note"
+        android:title="Music"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mPlaces"
+        android:icon="@drawable/baseline_place"
+        android:title="Places"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/mNews"
+        android:icon="@drawable/baseline_newspaper"
+        android:title="News"
+        app:showAsAction="ifRoom" />
 
 </menu>
